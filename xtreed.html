@@ -56,8 +56,8 @@
             <img alt="image" class="img-fluid" src="https://i.pinimg.com/750x/ca/eb/0b/caeb0b44b74360d386297b05febb219d.jpg">
             </div>
             <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
-            <h2>Incomplete Nodes of a Binary Tree</h2>
-            <p class="lead">Nodes that remove the completeness of a tree, i.e. nodes that just have a left node or a right node but not both.</p>
+            <h2>Inorder Traversal in a Binary Tree</h2>
+            <p class="lead">Jumping from node to node in a left-node-right fashion.</p>
             <!--p><a class="btn btn-dark mt-4" href="">Download</a></p-->
             </div>
         </div>
@@ -73,10 +73,10 @@
         <div class="row justify-content-safe">
         <div class="col col-sm-10 col-md-8 text-left">
             <p>
-                1. Create a function that is to be called recursively.<br>
-                2. Check if the current node has a left node but not a right node. Vice versa.<br>
-                3. Call this function for left node.<br>
-                4. Do the above step for right node as well.
+                1. Create a function with head node as a parameter. <br>
+                3. Call the same function(recursively) inside of your function,with the left node of the current node. <br>
+                2. If the node we currently are standing on has a value, print its value. <br>
+                4. Do the second step for right node as well.
             </p>
         </div>
         </div>
@@ -115,7 +115,7 @@
             </section>
             </div>
             <div class="container bg-light jumbotron dabba">
-            <form action="mailto:teamblitboard@gmail.com?subject=c solution for incomplete nodes in a tree" method="post" enctype="text/plain">
+            <form action="mailto:teamblitboard@gmail.com?subject=c solution for inorder traversal" method="post" enctype="text/plain">
                 <h2 class="display-4">Code Unavailable!</h2>
                 <p class="lead">Do you know the solution to the discussion? Or maybe know someone who can help us out? Submit the Github link to the solution and we will give a namecheck on our page! Just share your upload or your business card and let us have the pain!</p>
                 <hr class="my-4">
@@ -160,7 +160,7 @@
                 </section>
                 </div>
             <div class="container bg-light jumbotron dabba">
-            <form action="mailto:teamblitboard@gmail.com?subject=c++ solution for incomplete nodes in a tree" method="post" enctype="text/plain">
+            <form action="mailto:teamblitboard@gmail.com?subject=c++ solution for inorder traversal" method="post" enctype="text/plain">
                 <h2 class="display-4">Code Unavailable!</h2>
                 <p class="lead">Do you know the solution to the discussion? Or maybe know someone who can help us out? Submit the Github link to the solution and we will give a namecheck on our page! Just share your upload or your business card and let us have the pain!</p>
                 <hr class="my-4">
@@ -184,12 +184,11 @@
             </div>
         </div>
 
-
         <div id="pypy" class="container tabcontent">
-            <div class="row">
-            <div class="col-lg-8">
-            <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fh1m4n3hu%2Fforest%2Fblob%2Fmain%2Fun-full_nodes.py&style=tomorrow-night-eighties&showBorder=on&showFileMeta=on"></script>
-            </div>
+			<div class="row">
+				<div class="col-lg-8">
+					<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fh1m4n3hu%2Fforest%2Fblob%2Fmain%2Finorder.py&style=routeros&showBorder=on&showFileMeta=on"></script>
+				</div>
 				<div class="col-lg-4 py-3">
 					<div class="LI-profile-badge p-4" data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="h1m4n3hu"><a class="LI-simple-link" href='https://in.linkedin.com/in/h1m4n3hu?trk=profile-badge'>Himanshu Soni</a></div>
 					<div class="row m-4 text-center">
@@ -221,7 +220,7 @@
             </section>
             </div>
             <div class="container bg-light jumbotron dabba">
-            <form action="mailto:teamblitboard@gmail.com?subject=java solution for incomplete nodes in a tree" method="post" enctype="text/plain">
+            <form action="mailto:teamblitboard@gmail.com?subject=java solution for inorder traversal" method="post" enctype="text/plain">
                 <h2 class="display-4">Code Unavailable!</h2>
                 <p class="lead">Do you know the solution to the discussion? Or maybe know someone who can help us out? Submit the Github link to the solution and we will give a namecheck on our page! Just share your upload or your business card and let us have the pain!</p>
                 <hr class="my-4">
@@ -260,22 +259,22 @@
         <div class="row text-left">
         <div class="col-12 col-md-8 m-auto col-lg-4">
             <div class="fdb-box dabba">
-            <h3>Leaf nodes of a Binary Tree</h3>
-            <p>Print the bottom most nodes of a Binary tree</p>
+            <h3>Postorder Traversal</h3>
+            <p>Jump from node to node in left-right-node fashion.</p>
             <p><a href="#">Read Article</a></p>
             </div>
         </div>
         <div class="col-12 col-md-8 m-auto col-lg-4 pt-5 pt-lg-0">
             <div class="fdb-box">
-            <h3>Print all Root to Leaf Paths</h3>
-            <p>Print all possible paths starting from root nodeending at the bottommost node of a traversal.</p>
+            <h3>Preorder Traversal</h3>
+            <p>Print nodes in node-left-right pattern.</p>
             <p><a href="#">Read Article</a></p>
             </div>
         </div>
         <div class="col-12 col-md-8 m-auto col-lg-4 pt-5 pt-lg-0">
             <div class="fdb-box">
-            <h3>Size of a Binary Tree</h3>
-            <p>No. of Nodes in a binary tree.</p>
+            <h3>Inorder Traversal without Recursion</h3>
+            <p>Try the above solution without recursion-using stack.</p>
             <p><a href="#">Read Article</a></p>
             </div>
         </div>
