@@ -105,3 +105,12 @@ img{
 .LI-simple-link:hover, .ktra{
     color: black !important;
 }
+
+.newbtn{
+    font-size: 60px;
+    border: 2px grey;
+    border-style: dashed;
+    border-radius: 10px;
+    outline: none !important;
+    opacity: 0.8;
+}
