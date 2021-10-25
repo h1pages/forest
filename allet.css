@@ -22,6 +22,12 @@ body{
     z-index: 100;
 }
 
+.topfoo{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 600;
+}
+
 .khulta{
     border: 0px !important;
     outline: none !important;
